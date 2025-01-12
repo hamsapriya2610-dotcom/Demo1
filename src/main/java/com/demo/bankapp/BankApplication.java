@@ -8,7 +8,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 
 @SpringBootApplication
 public class BankApplication {
-
+//test
 	public static void main(String[] args) {
 		SpringApplication.run(BankApplication.class, args);
 	}
@@ -17,5 +17,5 @@ public class BankApplication {
 	public PasswordEncoder passwordEncoder() {
 		return new BCryptPasswordEncoder();
 	}
-
+//test
 }
